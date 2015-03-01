@@ -14,7 +14,7 @@ namespace SportsStore.UnitTests
     public class AdminTests
     {
         [TestMethod]
-        public void Index_Contains_All_Products()
+        public void Index_Contains_AllProducts()
         {
             var mock = new Mock<IProductRepository>();
             mock.Setup(m => m.Products).Returns(new ProductEntity[]
