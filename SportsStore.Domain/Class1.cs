@@ -7,6 +7,6 @@ using System.Threading.Tasks;
 namespace SportsStore.Domain
 {
     public class Class1
-    {
+    {   
     }
 }
